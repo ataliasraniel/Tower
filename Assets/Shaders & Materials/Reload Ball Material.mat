@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Reload Ball Material
+  m_Shader: {fileID: -6465566751694194690, guid: 2971e0e743e981e43b9db254d93707d0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_64645423f6274697a86557afb2de612b: 3.03
+    - Vector1_6ba34c518c5f426c82e1f8b547bd8719: 1.42
+    - Vector1_7069094bc3064a27a5f266feac232aa3: 1
+    - Vector1_b72337ef4b9c4c8b861b64e5673f1c91: 5
+    - Vector1_bd37f09c395c41e6baaac2c1cd34cd77: 1.19
+    - Vector1_be3bd4e142e846eaae3af2368137180e: 1
+    - Vector1_d14df11c30b342fa81b934b2076e6930: 15.77
+    - Vector1_e19e1af20068465db655dd6efd4b4817: 5
+    m_Colors:
+    - Color_7bd2bfa88f9e4774bc5d40be1e460583: {r: 1, g: 1, b: 1, a: 0}
+    - Color_b9740410f0354f2b80c314c59816c41a: {r: 1, g: 0.03915464, b: 0, a: 0}
+    - Vector2_e27bd81cc81c4190a227757fe74aed6e: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

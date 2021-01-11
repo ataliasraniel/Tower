@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5265485338893958806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5265485338893958807}
+  - component: {fileID: 5265485338893958800}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5265485338893958807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265485338893958806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5265485338893958800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265485338893958806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba415db2a2dc3f4f917cab1bf4556d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Shot1SFX
+    clip: {fileID: 8300000, guid: f7fb3d94ff243654e9eed03f3d224cda, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ReloadSFX
+    clip: {fileID: 8300000, guid: 158abcdd94d66404086f83e2ab00dde1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: FireballSFX
+    clip: {fileID: 8300000, guid: 1a69426edb525e74b93924f99b2383f1, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Portal spawn SFX
+    clip: {fileID: 8300000, guid: 613c2a7ebc65da146adc860c4994c708, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: GhostDeathSFX
+    clip: {fileID: 8300000, guid: 60003fa3d069e5f49b7a0fb80eb56844, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: SwitchSFX
+    clip: {fileID: 8300000, guid: 2e7e464a6426ed445872e28f4bf74302, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: PortalEntrySFX
+    clip: {fileID: 8300000, guid: e1b48a5698189e64aaa86f693f051ec1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: PoisonExplosionSFX
+    clip: {fileID: 8300000, guid: a1fdc0c181d69764b8866fb2a6e302d9, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ThickingBombSFX
+    clip: {fileID: 8300000, guid: 391715c3faf3a024790d5a08d27388a5, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: WolfHowlSFX
+    clip: {fileID: 8300000, guid: 10a30d3f24910ae4aa93f3e3feafd7fc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: MonsterBiteSFX
+    clip: {fileID: 8300000, guid: 13806a21f4af94549a29cdd64555a351, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: EmptyMagazineSFX
+    clip: {fileID: 8300000, guid: 7d094266ffce82b44a9c5877d76c00f3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: FonteSFX
+    clip: {fileID: 8300000, guid: 4bdbbb234c3dca449a86a136eb53648c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Impact1SFX
+    clip: {fileID: 8300000, guid: 7dcbde327e2ad22458b687a70d53b472, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Impact2SFX
+    clip: {fileID: 8300000, guid: 4fb53e4e0a2779f44b6c9a92372437c8, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: GoblinAttackSFX
+    clip: {fileID: 8300000, guid: 6511a9af36aa34144bd3c891873eaeaf, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: GoblinSpawnSFX
+    clip: {fileID: 8300000, guid: 80da4247bbdb23f40bbf4b637e860df0, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: GoblinDeathSFX
+    clip: {fileID: 8300000, guid: e42a787643198454187c07f4665ccdb6, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ShotgunShotSFX
+    clip: {fileID: 8300000, guid: 994dd98f104536741b6249c586caf6e5, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: DashSFX
+    clip: {fileID: 8300000, guid: d09559607f83fca479f8e3c4f4791750, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
